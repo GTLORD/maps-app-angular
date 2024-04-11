@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 interface House {
   title: string;
   description: string;
@@ -11,6 +12,7 @@ interface House {
   styleUrls: ['./properties-page.component.css']
 })
 export class PropertiesPageComponent {
+
 
   public houses: House[] = [
     {

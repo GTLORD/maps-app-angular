@@ -19,3 +19,18 @@
 5. Para producción ejecutar:
 
       ```npm run build```
+
+## Cambios Realizados para usar el modelo standalone
+
+1. se agrego el modulo *alone* para implementar componentes standalone, donde se crearon los siguientes archivos: 
+    - alone/pages/alonePage --standalone
+    - alone/components/counterAlone --standalone
+
+2. Se reestructuro  el componente maps/components/side-menu para volverlo un componente standalone
+en:
+    - alone/components/side-menu
+
+3. Se actualizaron las rutas para que siguiera funcionando de la misma manera
+
+  
+
